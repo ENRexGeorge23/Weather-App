@@ -415,10 +415,10 @@ packages:
     dependency: "direct dev"
     description:
       name: mocktail
-      sha256: dd85ca5229cf677079fd9ac740aebfc34d9287cdf294e6b2ba9fae25c39e4dc2
+      sha256: bac151b31e4ed78bd59ab89aa4c0928f297b1180186d5daf03734519e5f596c1
       url: "https://pub.dev"
     source: hosted
-    version: "0.2.0"
+    version: "1.0.1"
   nested:
     dependency: transitive
     description:
