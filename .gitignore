@@ -43,3 +43,4 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 /test/2_application
+/test/helpers/test_helper.mocks.dart

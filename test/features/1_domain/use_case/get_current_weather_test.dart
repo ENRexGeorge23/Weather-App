@@ -1,10 +1,10 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
-import 'package:weather_app/1_domain/entities/weather.dart';
-import 'package:weather_app/1_domain/use_cases/get_current_weather.dart';
+import 'package:weather_app/features/1_domain/entities/weather_entity.dart';
+import 'package:weather_app/features/1_domain/use_cases/get_current_weather_usecase.dart';
 
-import '../../helpers/test_helper.mocks.dart';
+import '../../../helpers/test_helper.mocks.dart';
 
 void main() {
   late GetCurrenWeatherUseCase getCurrenWeatherUseCase;
@@ -12,7 +12,8 @@ void main() {
 
   setUp(() {
     mockWeatherRepository = MockWeatherRepository();
-    getCurrenWeatherUseCase = GetCurrenWeatherUseCase(mockWeatherRepository);
+    getCurrenWeatherUseCase =
+        GetCurrenWeatherUseCase(weatherRepository: mockWeatherRepository);
   });
 
   const testWeatherDetail = WeatherEntity(
