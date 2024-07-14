@@ -1,6 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:weather_app/0_data/models/weather_model.dart';
-import 'package:weather_app/1_domain/entities/weather.dart';
+
+import 'package:weather_app/features/0_data/models/weather_model.dart';
+import 'package:weather_app/features/1_domain/entities/weather_entity.dart';
 
 void main() {
   const testWeatherModel = WeatherModel(

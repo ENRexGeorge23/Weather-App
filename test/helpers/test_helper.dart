@@ -1,6 +1,6 @@
-import 'package:weather_app/1_domain/repositories/weather_repository.dart';
 import 'package:http/http.dart' as http;
 import 'package:mockito/annotations.dart';
+import 'package:weather_app/features/1_domain/repositories/weather_repository.dart';
 
 @GenerateMocks(
   [WeatherRepository],
