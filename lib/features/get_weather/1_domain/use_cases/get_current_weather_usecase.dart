@@ -1,10 +1,10 @@
 import 'package:dartz/dartz.dart';
-import 'package:weather_app/features/1_domain/entities/weather_entity.dart';
+import 'package:weather_app/features/get_weather/1_domain/entities/weather_entity.dart';
 import 'package:weather_app/core/errors/failures.dart';
-import 'package:weather_app/features/1_domain/repositories/weather_repository.dart';
+import 'package:weather_app/features/get_weather/1_domain/repositories/get_current_weather_repository.dart';
 
 class GetCurrenWeatherUseCase {
-  final WeatherRepository weatherRepository;
+  final GetCurrentWeatherRepository weatherRepository;
 
   const GetCurrenWeatherUseCase({required this.weatherRepository});
 
