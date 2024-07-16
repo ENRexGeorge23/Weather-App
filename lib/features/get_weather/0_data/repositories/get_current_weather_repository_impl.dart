@@ -2,7 +2,7 @@ import 'package:dartz/dartz.dart';
 import 'package:weather_app/core/errors/exception.dart';
 import 'package:weather_app/core/errors/failures.dart';
 import 'package:weather_app/core/network/network_info.dart';
-import 'package:weather_app/features/get_weather/0_data/data_sources/get_current_weather_remote_datasource.dart';
+import 'package:weather_app/features/get_weather/0_data/data_sources/get_current_weather_remote_data_source.dart';
 import 'package:weather_app/features/get_weather/1_domain/entities/weather_entity.dart';
 import 'package:weather_app/features/get_weather/1_domain/repositories/get_current_weather_repository.dart';
 
