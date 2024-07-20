@@ -34,7 +34,7 @@ class GetCurrentWeatherRemoteDataSourceImpl
     } on DioException catch (e) {
       String errorDescription;
       if (e.response != null) {
-        errorDescription = 'product.packaging : ${e.response?.data}';
+        errorDescription = 'weather report error: ${e.response?.data}';
       } else {
         errorDescription = 'Error: ${e.message}';
       }
